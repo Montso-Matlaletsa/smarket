@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/smarket/static/css/main.a617e044.chunk.css",
-    "main.js": "/smarket/static/js/main.cc62f21d.chunk.js",
-    "main.js.map": "/smarket/static/js/main.cc62f21d.chunk.js.map",
+    "main.js": "/smarket/static/js/main.3138d1c3.chunk.js",
+    "main.js.map": "/smarket/static/js/main.3138d1c3.chunk.js.map",
     "runtime-main.js": "/smarket/static/js/runtime-main.cdc18303.js",
     "runtime-main.js.map": "/smarket/static/js/runtime-main.cdc18303.js.map",
     "static/css/2.b0300f7a.chunk.css": "/smarket/static/css/2.b0300f7a.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.11694aed.chunk.js.LICENSE.txt": "/smarket/static/js/2.11694aed.chunk.js.LICENSE.txt",
     "static/media/art.0777c1b9.jpg": "/smarket/static/media/art.0777c1b9.jpg",
     "static/media/background1.edaba0d3.jpg": "/smarket/static/media/background1.edaba0d3.jpg",
+    "static/media/background2.ebbd9508.jpg": "/smarket/static/media/background2.ebbd9508.jpg",
     "static/media/clothing.b7baf8ec.jpg": "/smarket/static/media/clothing.b7baf8ec.jpg",
     "static/media/design.28b4a2a0.jpg": "/smarket/static/media/design.28b4a2a0.jpg",
     "static/media/jquery.min.map": "/smarket/static/media/jquery.min.3ae58d8d.map",
@@ -28,6 +29,6 @@
     "static/css/2.b0300f7a.chunk.css",
     "static/js/2.11694aed.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.cc62f21d.chunk.js"
+    "static/js/main.3138d1c3.chunk.js"
   ]
 }
