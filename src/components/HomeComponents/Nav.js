@@ -7,6 +7,7 @@ import Explore from "./Explore";
 import 'materialize-css/dist/css/materialize.min.css'
 import 'materialize-css/dist/js/materialize.min'
 import 'jquery/dist/jquery.min.map'
+import LoginForm from "./LoginForm";
 
 class Nav extends React.Component {
     render() {
@@ -36,12 +37,14 @@ class Nav extends React.Component {
                 </ul>
 
 
-                    <Paralax />
+                <Paralax />
                 <br/>
                 <br/>
                 <Cards />
                 <Description />
                 <Explore />
+
+                <LoginForm />
 
 
             </>

@@ -33,7 +33,7 @@ class Description extends React.Component{
                     </div>
 
                     <div className="col s12 m6">
-                        <img src={whatWeDo}/>
+                        <img src={whatWeDo} alt="WHAT WE DO"/>
                     </div>
                 </div>
             </>
