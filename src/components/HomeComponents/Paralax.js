@@ -18,12 +18,6 @@ class Paralax  extends React.Component{
                                 </div>
                                 <div className="row center">
 
-                                    <div className="col input-field input-outlined s6">
-                                        <input placeholder="Search" id="first_name" type="text"
-                                               className="validate" style={{backgroundColor: "white"}} />
-
-
-                                    </div>
                                     <a href="http://materializecss.com/getting-started.html" id="download-button"
                                        className="btn-large waves-effect waves-light teal lighten-1">Search</a>
                                 </div>

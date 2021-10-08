@@ -6,7 +6,7 @@ class Service extends React.Component<>{
     render() {
         return(
             <>
-                <div className="col s5 m2">
+                <div className="col s12 m2">
                     <div className="card center">
                         <a href="#">
                             <div className="card-content white-text">

@@ -4,6 +4,10 @@ import Cards from './Cards'
 import Description from "./Description";
 import Explore from "./Explore";
 
+import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/js/materialize.min'
+import 'jquery/dist/jquery.min.map'
+
 class Nav extends React.Component {
     render() {
         return(
