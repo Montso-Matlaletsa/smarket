@@ -32,6 +32,7 @@ class LoginForm extends  React.Component{
                                     <i className="material-icons prefix">email</i>
                                     <input id="icon_prefix" type="email" className="validate" />
                                     <label htmlFor="icon_email">Email</label>
+
                                 </div>
                                 <div className="input-field col s12">
                                     <i className="material-icons prefix">lock</i>
@@ -40,7 +41,7 @@ class LoginForm extends  React.Component{
                                 </div>
                             </div>
 
-                            <a class="waves-effect green waves-light btn-small col s12">Login</a>
+                            <a class="waves-effect green waves-dark btn col s12">Login</a>
                         </form>
                     </div>
 
