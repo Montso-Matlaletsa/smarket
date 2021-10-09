@@ -25,23 +25,23 @@ class LoginForm extends  React.Component{
 
                     <h4 className="center"><b>Login</b></h4>
 
-                    <div className="container">
+                    <div className="container" id="login">
                         <form className="col s12 m12">
                             <div className="row">
                                 <div className="input-field col s12">
-                                    <i className="material-icons prefix">email</i>
+                                    <i className="material-icons prefix">email_outline</i>
                                     <input id="icon_prefix" type="email" className="validate" />
                                     <label htmlFor="icon_email">Email</label>
 
                                 </div>
                                 <div className="input-field col s12">
-                                    <i className="material-icons prefix">lock</i>
+                                    <i className="material-icons prefix">lock_outline</i>
                                     <input id="icon_password" type="password" className="validate" />
                                     <label htmlFor="icon_password">Password</label>
                                 </div>
                             </div>
 
-                            <a class="waves-effect green waves-dark btn col s12">Login</a>
+                            <a class="waves-effect waves-dark btn col s12">Login</a>
                         </form>
                     </div>
 

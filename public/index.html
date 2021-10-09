@@ -11,7 +11,7 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <script type="text/javascript" src="js/init.js"></script>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
@@ -22,9 +22,11 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-
-  <script type="text/javascript" src="js/Jquery-3.6.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/init.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.modal');
+        var instances = M.Modal.init(elems, options);
+      });
+    </script>
   </body>
 </html>

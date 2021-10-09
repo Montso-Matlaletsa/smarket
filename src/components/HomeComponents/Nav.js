@@ -16,12 +16,12 @@ class Nav extends React.Component {
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i
                             className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down ">
-                            <li><Link to="/" className="white-text">Home</Link></li>
+                            <li><Link to="/smarket" className="white-text">Home</Link></li>
                             <li><Link to="" className="white-text">Explore</Link></li>
                             <li><Link to="" className="white-text">About Us</Link></li>
                             <li><Link to="" className="white-text">Pricing</Link></li>
-                            <li><Link to="" className="white-text">Login</Link></li>
-                            <li><Link to="/Register" className="waves-effect waves-light btn">Become a seller</Link></li>
+                            <li><Link to="#login" className="white-text">Login</Link></li>
+                            <li><Link to="#modal1" className="waves-effect waves-light btn">Become a seller</Link></li>
                         </ul>
                     </div>
                 </nav>
