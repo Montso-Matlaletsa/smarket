@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from './images/background1.jpg'
+import img1 from './images/background3.jpg'
 
 class Paralax  extends React.Component{
     render() {
@@ -18,8 +18,8 @@ class Paralax  extends React.Component{
                                 </div>
                                 <div className="row center">
 
-                                    <a href="http://materializecss.com/getting-started.html" id="download-button"
-                                       className="btn-large waves-effect waves-light teal lighten-1">Search</a>
+                                    <a href="/Register" id="download-button"
+                                       className="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
                                 </div>
 
 

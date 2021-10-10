@@ -1,6 +1,67 @@
 import React from "react";
+import {AiOutlineMail,AiOutlineLock} from 'react-icons/ai'
+import {MdPersonOutline} from 'react-icons/md'
 
 class Register extends React.Component{
+
+    userData;
+
+        constructor(props) {
+            super(props);
+
+            this.onChangeUserName = this.onChangeUserName.bind(this)
+            this.onChangeEmail = this.onChangeEmail.bind(this)
+            this.onChangePassword = this.onChangePassword.bind(this)
+            this.onSubmit = this.onSubmit.bind(this)
+            this.state ={
+                username: '',
+                email: '',
+                password: ''
+            }
+        }
+
+
+    onChangeUserName(e){
+            this.setState({username: e.target.value})
+    }
+
+    onChangeEmail(e){
+        this.setState({email: e.target.value})
+    }
+
+    onChangePassword(e){
+        this.setState({password: e.target.value})
+    }
+
+    onSubmit(e){
+            e.preventDefault()
+    }
+
+    //component life cycle
+
+    componentDidMount() {
+          this.userData = JSON.parse(localStorage.getItem('user'))
+
+        if(localStorage.getItem('user')){
+            this.setState({
+                username: this.userData.username,
+                email: this.userData.email,
+                password: this.userData.password
+            })
+        }else{
+            this.setState({
+                username:'',
+                email:'',
+                password:''
+            })
+        }
+    }
+
+    componentWillUpdate(nextProps, nextState ){
+            localStorage.setItem('user', JSON.stringify(nextState))
+    }
+
+
     render() {
         return(
             <div className="container">
@@ -8,57 +69,36 @@ class Register extends React.Component{
                 <hr />
 
                 <div id="login-page" className="row">
-                    <div className="col s12 z-depth-6 card-panel">
-                        <form className="login-form">
-                            <div className="row ">
-                                <div className="input-field col s12 m6">
-                                    <i className="material-icons prefix">business_outline</i>
-                                    <input id="business" type="text" />
-                                        <label htmlFor="password">Business Name</label>
-                                </div>
+                    <div className="col s12 m6 z-depth-6 card-panel">
+                        <form className="login-form" onSubmit={this.onSubmit}>
 
-                                <div className="input-field col s12 m6">
-                                    <i className="material-icons prefix">email_outline</i>
-                                    <input id="business" type="email" />
-                                    <label htmlFor="password">Email</label>
+                            <div className="row margin">
+                                <div className="input-field col s12">
+                                    <i className="prefix"><MdPersonOutline /></i>
+                                    <input className="validate" id="email" type="text" value={this.state.username} onChange={this.onChangeUserName} />
+                                    <label htmlFor="email" data-error="wrong" data-success="right"
+                                           className="center-align">User Name</label>
                                 </div>
                             </div>
 
-
-                            <div className="row ">
-                                <div className="input-field col s12 m6">
-                                    <select>
-                                        <option value="1">Option 1</option>
-                                        <option value="2">Option 2</option>
-                                        <option value="3">Option 3</option>
-                                    </select>
-                                    <label>Materialize Select</label>
-                                </div>
-
-                                <div className="input-field col s12 m6">
-                                    <i className="material-icons prefix">email_outline</i>
-                                    <input id="business" type="email" />
-                                    <label htmlFor="password">Email</label>
+                            <div className="row margin">
+                                <div className="input-field col s12">
+                                    <i className="prefix"><AiOutlineMail /></i>
+                                    <input className="validate" id="email" type="email" value={this.state.email} onChange={this.onChangeEmail} />
+                                        <label htmlFor="email" data-error="wrong" data-success="right"
+                                               className="center-align">Email</label>
                                 </div>
                             </div>
-
-                            <div className="row">
-                                <div className="input-field col s12 m12 l12  login-text">
-                                    <input type="checkbox" id="remember-me"/>
-                                    <label htmlFor="remember-me">Remember me</label>
+                            <div className="row margin">
+                                <div className="input-field col s12">
+                                    <i className="prefix"><AiOutlineLock /></i>
+                                    <input id="password" type="password"  value={this.state.password} onChange={this.onChangePassword}/>
+                                        <label htmlFor="password">Password</label>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="input-field col s12">
-                                    <a href="#" className="btn waves-effect waves-light col s12">Login</a>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="input-field col s6 m6 l6">
-                                    <p className="margin medium-small"><a href="#">Register Now!</a></p>
-                                </div>
-                                <div className="input-field col s6 m6 l6">
-                                    <p className="margin right-align medium-small"><a href="#">Forgot password?</a></p>
+                                    <button type="submit" className="btn text-primary waves-effect waves-light col s12">Register</button>
                                 </div>
                             </div>
 

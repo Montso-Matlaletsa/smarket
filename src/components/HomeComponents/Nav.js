@@ -21,7 +21,7 @@ class Nav extends React.Component {
                             <li><Link to="" className="white-text">About Us</Link></li>
                             <li><Link to="" className="white-text">Pricing</Link></li>
                             <li><Link to="#login" className="white-text">Login</Link></li>
-                            <li><Link to="#modal1" className="waves-effect waves-light btn">Become a seller</Link></li>
+                            <li><Link to="/Register" className="waves-effect waves-light btn">Sign Up</Link></li>
                         </ul>
                     </div>
                 </nav>
@@ -32,7 +32,7 @@ class Nav extends React.Component {
                     <li><a href="badges.html" className="white-text">About Us</a></li>
                     <li><a href="badges.html" className="white-text">Pricing</a></li>
                     <li><a href="collapsible.html" className="white-text">Login</a></li>
-                    <li><a className="waves-effect waves-light btn">Become a seller</a></li>
+                    <li><a className="waves-effect waves-light btn">Sign Up</a></li>
                 </ul>
 
             </>
