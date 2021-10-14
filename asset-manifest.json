@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/smarket/static/css/main.a617e044.chunk.css",
-    "main.js": "/smarket/static/js/main.af178c19.chunk.js",
-    "main.js.map": "/smarket/static/js/main.af178c19.chunk.js.map",
-    "runtime-main.js": "/smarket/static/js/runtime-main.bff30853.js",
-    "runtime-main.js.map": "/smarket/static/js/runtime-main.bff30853.js.map",
+    "main.js": "/smarket/static/js/main.e3748907.chunk.js",
+    "main.js.map": "/smarket/static/js/main.e3748907.chunk.js.map",
+    "runtime-main.js": "/smarket/static/js/runtime-main.69251dd3.js",
+    "runtime-main.js.map": "/smarket/static/js/runtime-main.69251dd3.js.map",
     "static/css/2.b0300f7a.chunk.css": "/smarket/static/css/2.b0300f7a.chunk.css",
-    "static/js/2.136d007c.chunk.js": "/smarket/static/js/2.136d007c.chunk.js",
-    "static/js/2.136d007c.chunk.js.map": "/smarket/static/js/2.136d007c.chunk.js.map",
-    "static/js/3.9f8344be.chunk.js": "/smarket/static/js/3.9f8344be.chunk.js",
-    "static/js/3.9f8344be.chunk.js.map": "/smarket/static/js/3.9f8344be.chunk.js.map",
+    "static/js/2.ac2341bf.chunk.js": "/smarket/static/js/2.ac2341bf.chunk.js",
+    "static/js/2.ac2341bf.chunk.js.map": "/smarket/static/js/2.ac2341bf.chunk.js.map",
+    "static/js/3.7db99545.chunk.js": "/smarket/static/js/3.7db99545.chunk.js",
+    "static/js/3.7db99545.chunk.js.map": "/smarket/static/js/3.7db99545.chunk.js.map",
     "index.html": "/smarket/index.html",
     "static/css/2.b0300f7a.chunk.css.map": "/smarket/static/css/2.b0300f7a.chunk.css.map",
     "static/css/main.a617e044.chunk.css.map": "/smarket/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.136d007c.chunk.js.LICENSE.txt": "/smarket/static/js/2.136d007c.chunk.js.LICENSE.txt",
+    "static/js/2.ac2341bf.chunk.js.LICENSE.txt": "/smarket/static/js/2.ac2341bf.chunk.js.LICENSE.txt",
     "static/media/art.0777c1b9.jpg": "/smarket/static/media/art.0777c1b9.jpg",
     "static/media/background2.ebbd9508.jpg": "/smarket/static/media/background2.ebbd9508.jpg",
     "static/media/background3.2abc6d2c.jpg": "/smarket/static/media/background3.2abc6d2c.jpg",
@@ -25,10 +25,10 @@
     "static/media/what we do.581b6a41.jpg": "/smarket/static/media/what we do.581b6a41.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bff30853.js",
+    "static/js/runtime-main.69251dd3.js",
     "static/css/2.b0300f7a.chunk.css",
-    "static/js/2.136d007c.chunk.js",
+    "static/js/2.ac2341bf.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.af178c19.chunk.js"
+    "static/js/main.e3748907.chunk.js"
   ]
 }
