@@ -4,6 +4,7 @@ import Nav from "./components/HomeComponents/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/index'
 import Register from "./components/Pages/Register";
+import Dashboard from "./components/Pages/Dashboard";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Switch>
       <Route path="/smarket" exact component={Home} />
       <Route path="/Register" exact component={Register} />
+      <Route path="/Dashboard" exact component={Dashboard} />
     </Switch>
   </Router>
   );

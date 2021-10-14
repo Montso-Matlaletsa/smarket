@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from "./images/background2.jpg";
 import {AiOutlineMail,AiOutlineLock} from 'react-icons/ai'
+import { useHistory } from "react-router-dom";
 
 
 class LoginForm extends  React.Component{
@@ -11,7 +12,8 @@ class LoginForm extends  React.Component{
         super(props);
         this.state={
             email : '',
-            password: ''
+            password: '',
+            history : useHistory
         }
 
         this.onChangeEmail = this.onChangeEmail.bind(this)
@@ -45,6 +47,10 @@ class LoginForm extends  React.Component{
         }
 
         alert("success")
+        this.state.history.push({
+            path: '/Dashboard',
+            data : user
+        })
     }
 
     render() {
